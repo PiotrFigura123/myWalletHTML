@@ -5,7 +5,7 @@ body
 	font-size:25px;
 	font-family: 'Lato', sans-serif;
 	text-align:center;
-	margin-top:150px;
+	margin-top:100px;
 }
 
 #container
@@ -21,12 +21,29 @@ body
 	-webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
 	-moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
 	box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+}
+
+#container1
+{
+	width:300px;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	background-color:white;
+	border-radius:25px;
+	border-color:black;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
 	
 }
 
 input[type=name],
 input[type=email],
-input[type=password]
+input[type=password],
+input[type=value],
+input[type=date]
 {
 	width:300px;
 	background-color:white;
@@ -41,9 +58,27 @@ input[type=password]
 	
 }
 
+input[type=comment]
+{
+	width:300px;
+	background-color:white;
+	color:#666;
+	border:2px solid #ddd;
+	border-radius:20px;
+	font-size:20px;
+	padding:10px;
+	box-sizing:border-box;
+	outline:none;
+	margin-top:20px;
+	
+}
+
+
 input[type=name]:focus,
+input[type=value]:focus,
 input[type=email]:focus,
-input[type=password]:focus
+input[type=password]:focus,
+input[type=comment]:focus
 {
 	-webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
 	-moz-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
@@ -73,5 +108,37 @@ input[type=submit]:hover
 {
 	background-color:#37b93c;	
 }
+
+h5 
+{
+	text-align:left;
+	margin-bottom:10px;
+}
+h6
+{
+	color:black;
+}
+#comment
+{
+	width:200px;
+	min-height:150px;
+}
+
+input[type=submit1]
+{
+	float:left;
+	width:130px;
+	background-color:#61b03c;
+	font-size:20px;
+	color:white;
+	border:none;
+	border-radius: 5px;
+	cursor:pointer;
+	letter-spacing:2px;
+	outline:none;
+	margin-top:20px;
+	text-align:center;
+}
+
 
 

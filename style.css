@@ -108,11 +108,18 @@ input[type=submit]:hover
 {
 	background-color:#37b93c;	
 }
-
+h3
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	color:black;
+}
 h5 
 {
 	text-align:left;
 	margin-bottom:10px;
+	margin-top:10px;
+	color:black;
 }
 h6
 {
@@ -128,10 +135,29 @@ input[type=submit1]
 {
 	float:left;
 	width:130px;
+	padding:5px;
+	margin-right:10px;
 	background-color:#61b03c;
 	font-size:20px;
 	color:white;
-	border:none;
+	border:black;
+	border-radius: 5px;
+	cursor:pointer;
+	letter-spacing:2px;
+	outline:none;
+	margin-top:20px;
+	text-align:center;
+}
+input[type=submit1]:hover
+{
+	float:left;
+	width:130px;
+	padding:5px;
+	margin-right:10px;
+	background-color:#50a02b;
+	font-size:20px;
+	color:white;
+	border:black;
 	border-radius: 5px;
 	cursor:pointer;
 	letter-spacing:2px;
